@@ -64,3 +64,132 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* main */
+
+header {
+	margin: 15px 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav {
+ width: 70%;
+ max-width: 800px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 0 20px;
+}
+
+nav a {
+	color:	#797979;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #000000;
+}
+
+footer {
+	margin: 60px 60px;
+}
+
+footer p {
+	text-align: center;
+}
+/* /////////////////////////////////////////// */
+/* //////////////////index//////////////////// */
+/* /////////////////////////////////////////// */
+.top-title {
+	display: flex;
+	justify-content: center;
+	margin: 60px 20px;
+}
+
+.top-title .title {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	vertical-align: middle;
+	justify-content: center;
+	align-items: center;
+}
+.top-title .title h1 {
+	font-size: 4em;
+	margin-bottom: 10px;
+}
+.top-title .title button {
+	padding: 5px 30px;
+	border: 1px solid black;
+	background: inherit;
+	cursor: pointer;
+}
+
+.top-title .title button:hover {
+	background: black;
+	color: white;
+}
+
+.top-title .top-img {
+	width: 50%;
+	text-align: center;
+}
+
+.index .content-main {
+	margin: 60px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.content-main .top {
+	display: flex;
+	padding: 30px 0;
+}
+.content-main .top section {
+	padding: 0 10px;
+}
+
+.content-main .bottom {
+	display: flex;
+	padding: 30px 0;
+}
+
+.content-main .bottom section {
+	padding: 0 10px;
+}
+
+
+/* services */
+.top-content {
+	margin: 60px;
+}
+
+.content-services {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	margin: 60px;
+}
+.content-services .set-section {
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.content-services section {
+	height: 230px;
+	width: 400px;
+	padding: 20px;
+	border: 1px solid black;
+	margin: 30px 0;	
+	background-color: #e4e4e4;
+}
+
+.content-services section button {
+	border: 1px solid black;
+	background: white;
+	cursor: pointer;
+	padding: 5px;
+}
