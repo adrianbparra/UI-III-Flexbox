@@ -149,6 +149,9 @@ footer p {
 .content-main .top section {
 	padding: 0 10px;
 }
+.content-main .middle-img {
+	width: 100%;
+}
 
 .content-main .bottom {
 	display: flex;
@@ -162,21 +165,28 @@ footer p {
 
 /* services */
 .top-content {
-	margin: 60px;
+	margin: 0 60px;
+}
+.title {
+	margin: 30px 0;
 }
 
 .content-services {
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
-	margin: 60px;
+	margin: 0 60px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
-.content-services .set-section {
+/* commented to have section seperatated */
+/* .content-services .set-section {
 
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 
-}
+} */
 
 .content-services section {
 	height: 230px;
@@ -191,5 +201,11 @@ footer p {
 	border: 1px solid black;
 	background: white;
 	cursor: pointer;
-	padding: 5px;
+	padding: 5px 30px;
+	margin-top: 12px;
+}
+
+.content-services section button:hover {
+	background: #747474;
+	color: white;
 }
