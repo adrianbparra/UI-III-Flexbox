@@ -72,6 +72,9 @@ header {
 	display: flex;
 	justify-content: space-between;
 }
+.hamburger {
+	display: none;
+}
 
 nav {
  width: 70%;
@@ -250,7 +253,7 @@ footer p {
 	justify-content: space-between;
 }
 .facts section {
-	width: 420px;
+	width: 50%;
 }
 .facts section p {
 	line-height: 1.3;
@@ -261,4 +264,38 @@ footer p {
 	line-height: 1.9;
 	list-style-position: inside;
 	list-style-type: square;
+}
+
+.facts img {
+	width: 50%;
+	height: auto;
+
+}
+
+@media screen and (max-width: 980px) {
+
+	.content-services {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-content: center;
+	}
+	.content-services section {
+		width: 100%;
+		height: auto;
+	}
+
+	.facts {
+		flex-direction: column;
+		align-content: center;	
+	}
+	.facts section{
+		width: auto;
+	}
+	.facts img {
+		width: 100%;
+		margin-top: 30px;
+	}
+
+
 }
